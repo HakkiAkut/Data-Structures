@@ -59,4 +59,41 @@ returns
 
 returns 
 
-      splits 2nd half of circular linked list to another list and returns this list. And given circular linked list becomes 1st half of the circular linked list
+      splits 2nd half of circular linked list to another list and returns this list.
+      And given circular linked list becomes 1st half of the circular linked list
+
+**PATH FINDING**
+
+Rules
+
+      There is a terrain that consists of a number of H x W tiles.  
+      In each tile, there can be a player or an obstacle. 
+      There must be 1 player and p obstacles and 1 finish point that are placed in a random position upon the terrain. 
+      Write all possible route in which no tile is revisited for the player from starting point to finishing point.
+
+Sample Config
+
+      height: 3
+      width: 4
+      numberOfObstacle: 2
+
+commands for run
+ 
+      javac *.java
+      java Main 
+
+returns 
+
+      result.txt
+
+sample result output
+
+      f is finish point, x is obstacle, p is player
+
+      0x00
+      00px
+      f000
+      (2, 1) (1, 1) (0, 1) (0, 2) 
+      (2, 1) (1, 1) (1, 2) (0, 2) 
+      (2, 1) (2, 2) (1, 2) (0, 2) 
+      (2, 1) (2, 2) (1, 2) (1, 1) (0, 1) (0, 2) 
