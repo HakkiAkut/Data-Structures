@@ -46,3 +46,17 @@ returns
 
       true, if there is same sequence of elements 
       false, if there is not
+      
+ **CIRCULAR LINKEDLIST 2**
+ 
+ Given a circularly linked list L containing an even number of nodes,
+ develop java application how to split L into two circularly linked lists of half the size.
+ 
+ commands for run
+ 
+      javac *.java
+      java Main 
+
+returns 
+
+      splits 2nd half of circular linked list to another list and returns this list. And given circular linked list becomes 1st half of the circular linked list
