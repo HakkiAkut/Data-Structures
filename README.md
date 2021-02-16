@@ -26,6 +26,7 @@ commands for run
       java Main
       
 returns 
+
       result.txt file
 
 
@@ -42,5 +43,6 @@ commands for run
       java Main 
 
 returns 
+
       true, if there is same sequence of elements 
       false, if there is not
