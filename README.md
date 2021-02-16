@@ -27,3 +27,20 @@ commands for run
       
 returns 
       result.txt file
+
+
+**CIRCULAR LINKEDLIST 1**
+
+ Given two circularly linked lists, L and M.
+ Develop java application for telling 
+ if L and M store the same sequence of elements 
+ (but perhaps with different starting points)
+ 
+commands for run
+ 
+      javac *.java
+      java Main 
+
+returns 
+      true, if there is same sequence of elements 
+      false, if there is not
