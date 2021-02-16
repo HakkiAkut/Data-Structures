@@ -13,7 +13,7 @@ The Rules of the Game
       6.  There can be any number of players in one tile.  There must be only one obstacle in any tile.
       7.  If any player reaches to the finish point, the game is over and the player wins.
 
-Sample Game Config
+Sample Game Config (var.cfg file)
 
       height: 5000
       width: 5000
@@ -71,7 +71,7 @@ Rules
       There must be 1 player and p obstacles and 1 finish point that are placed in a random position upon the terrain. 
       Write all possible route in which no tile is revisited for the player from starting point to finishing point.
 
-Sample Config
+Sample Config (var.cfg file)
 
       height: 3
       width: 4
