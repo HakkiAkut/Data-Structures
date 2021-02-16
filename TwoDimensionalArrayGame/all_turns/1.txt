@@ -1,0 +1,17 @@
+
+0000000000
+001000000x
+0100f00000
+0000000000
+0010000000
+x001000000
+000x000000
+000000x000
+0000001x00
+00x0000001
+Player 0 Location x: 2 y: 1
+Player 1 Location x: 3 y: 5
+Player 2 Location x: 2 y: 4
+Player 3 Location x: 9 y: 9
+Player 4 Location x: 6 y: 8
+Player 5 Location x: 1 y: 2

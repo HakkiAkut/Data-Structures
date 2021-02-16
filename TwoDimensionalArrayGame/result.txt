@@ -1,0 +1,490 @@
+Game starts!
+Note: x shows horizontal location and starts from 0, and y shows vertical location
+Note: f shows finish point, x shows obstacle, numbers shows how much player is in that tile, for 10 or more * will used instead of numbers
+
+
+------------------------------------
+turn: 0
+
+0000000000
+000000000x
+0010f00000
+0100000000
+0000000000
+x020000000
+000x000000
+000000x000
+0000010x00
+00x0000010
+Player 0 Location x: 2 y: 2
+Player 1 Location x: 2 y: 5
+Player 2 Location x: 2 y: 5
+Player 3 Location x: 8 y: 9
+Player 4 Location x: 5 y: 8
+Player 5 Location x: 1 y: 3
+------------------------------------
+press enter for next turn, r + enter for full run, l + enter for only finished last state
+// user input: enter
+turn: 1
+
+0000000000
+001000000x
+0100f00000
+0000000000
+0010000000
+x001000000
+000x000000
+000000x000
+0000001x00
+00x0000001
+Player 0 Location x: 2 y: 1
+Player 1 Location x: 3 y: 5
+Player 2 Location x: 2 y: 4
+Player 3 Location x: 9 y: 9
+Player 4 Location x: 6 y: 8
+Player 5 Location x: 1 y: 2
+------------------------------------
+press enter for next turn, r + enter for full run, l + enter for only finished last state
+// user input: enter
+turn: 2
+
+0000000000
+000100000x
+1000f00000
+0000000000
+0000000000
+x010100000
+000x000000
+000000x000
+0000001x01
+00x0000000
+Player 0 Location x: 3 y: 1
+Player 1 Location x: 4 y: 5
+Player 2 Location x: 2 y: 5
+Player 3 Location x: 9 y: 8
+Player 4 Location x: 6 y: 8
+Player 5 Location x: 0 y: 2
+------------------------------------
+press enter for next turn, r + enter for full run, l + enter for only finished last state
+// user input: r
+turn: 3
+
+0000000000
+001000000x
+0000f00000
+1000000000
+0000000000
+x100000000
+000x100000
+000000x000
+0000000x10
+00x0001000
+Player 0 Location x: 2 y: 1
+Player 1 Location x: 4 y: 6
+Player 2 Location x: 1 y: 5
+Player 3 Location x: 8 y: 8
+Player 4 Location x: 6 y: 9
+Player 5 Location x: 0 y: 3
+------------------------------------
+turn: 4
+
+0000000000
+000000000x
+0010f00000
+0000000000
+1000000000
+x100100000
+000x000000
+000000x000
+0000001x10
+00x0000000
+Player 0 Location x: 2 y: 2
+Player 1 Location x: 4 y: 5
+Player 2 Location x: 1 y: 5
+Player 3 Location x: 8 y: 8
+Player 4 Location x: 6 y: 8
+Player 5 Location x: 0 y: 4
+------------------------------------
+turn: 5
+
+0000000000
+000000000x
+0000f00000
+0010000000
+0100100000
+x100000000
+000x000000
+000000x000
+0000001x01
+00x0000000
+Player 0 Location x: 2 y: 3
+Player 1 Location x: 4 y: 4
+Player 2 Location x: 1 y: 5
+Player 3 Location x: 9 y: 8
+Player 4 Location x: 6 y: 8
+Player 5 Location x: 1 y: 4
+------------------------------------
+turn: 6
+
+0000000000
+000000000x
+0000f00000
+0100100000
+0010000000
+x000000000
+010x000000
+000000x000
+0000000x10
+00x0001000
+Player 0 Location x: 2 y: 4
+Player 1 Location x: 4 y: 3
+Player 2 Location x: 1 y: 6
+Player 3 Location x: 8 y: 8
+Player 4 Location x: 6 y: 9
+Player 5 Location x: 1 y: 3
+------------------------------------
+turn: 7
+
+0000000000
+000000000x
+0000f00000
+0001000000
+0101000000
+x000000000
+000x000000
+010000x010
+0000000x00
+00x0010000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 3 y: 3
+Player 2 Location x: 1 y: 7
+Player 3 Location x: 8 y: 7
+Player 4 Location x: 5 y: 9
+Player 5 Location x: 1 y: 4
+------------------------------------
+turn: 8
+
+0000000000
+000000000x
+0000f00000
+0000100000
+0020000000
+x000000000
+000x000000
+100000x100
+0000010x00
+00x0000000
+Player 0 Location x: 2 y: 4
+Player 1 Location x: 4 y: 3
+Player 2 Location x: 0 y: 7
+Player 3 Location x: 7 y: 7
+Player 4 Location x: 5 y: 8
+Player 5 Location x: 2 y: 4
+------------------------------------
+turn: 9
+
+0000000000
+000000000x
+0000f00000
+0000010000
+0002000000
+x000000000
+000x000100
+000000x000
+1000100x00
+00x0000000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 5 y: 3
+Player 2 Location x: 0 y: 8
+Player 3 Location x: 7 y: 6
+Player 4 Location x: 4 y: 8
+Player 5 Location x: 3 y: 4
+------------------------------------
+turn: 10
+
+0000000000
+000000000x
+0000f10000
+0001000000
+0000000000
+x001000100
+000x000000
+000010x000
+0000000x00
+10x0000000
+Player 0 Location x: 3 y: 3
+Player 1 Location x: 5 y: 2
+Player 2 Location x: 0 y: 9
+Player 3 Location x: 7 y: 5
+Player 4 Location x: 4 y: 7
+Player 5 Location x: 3 y: 5
+------------------------------------
+turn: 11
+
+0000000000
+000000000x
+0000f00000
+0000010000
+0001000000
+x000101000
+000x000000
+000000x000
+0000100x00
+01x0000000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 5 y: 3
+Player 2 Location x: 1 y: 9
+Player 3 Location x: 6 y: 5
+Player 4 Location x: 4 y: 8
+Player 5 Location x: 4 y: 5
+------------------------------------
+turn: 12
+
+0000000000
+000000000x
+0000f00000
+0001000000
+0000010000
+x000020000
+000x000000
+000000x000
+0101000x00
+00x0000000
+Player 0 Location x: 3 y: 3
+Player 1 Location x: 5 y: 4
+Player 2 Location x: 1 y: 8
+Player 3 Location x: 5 y: 5
+Player 4 Location x: 3 y: 8
+Player 5 Location x: 5 y: 5
+------------------------------------
+turn: 13
+
+0000000000
+000000000x
+0000f00000
+0000000000
+0001110000
+x000000000
+000x010000
+010100x000
+0000000x00
+00x0000000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 4 y: 4
+Player 2 Location x: 1 y: 7
+Player 3 Location x: 5 y: 4
+Player 4 Location x: 3 y: 7
+Player 5 Location x: 5 y: 6
+------------------------------------
+turn: 14
+
+0000000000
+000000000x
+0000f00000
+0000000000
+0010011000
+x000000000
+010x100000
+000010x000
+0000000x00
+00x0000000
+Player 0 Location x: 2 y: 4
+Player 1 Location x: 5 y: 4
+Player 2 Location x: 1 y: 6
+Player 3 Location x: 6 y: 4
+Player 4 Location x: 4 y: 7
+Player 5 Location x: 4 y: 6
+------------------------------------
+turn: 15
+
+0000000000
+000000000x
+0000f00000
+0000000000
+0001001000
+x000001000
+000x000000
+010011x000
+0000000x00
+00x0000000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 6 y: 4
+Player 2 Location x: 1 y: 7
+Player 3 Location x: 6 y: 5
+Player 4 Location x: 5 y: 7
+Player 5 Location x: 4 y: 7
+------------------------------------
+turn: 16
+
+0000000000
+000000000x
+0000f00000
+0001001000
+0000001000
+x000000000
+000x010000
+100001x000
+0000000x00
+00x0000000
+Player 0 Location x: 3 y: 3
+Player 1 Location x: 6 y: 3
+Player 2 Location x: 0 y: 7
+Player 3 Location x: 6 y: 4
+Player 4 Location x: 5 y: 6
+Player 5 Location x: 5 y: 7
+------------------------------------
+turn: 17
+
+0000000000
+000000000x
+0000f01000
+0000100000
+0000000100
+x000000000
+100x001000
+000010x000
+0000000x00
+00x0000000
+Player 0 Location x: 4 y: 3
+Player 1 Location x: 6 y: 2
+Player 2 Location x: 0 y: 6
+Player 3 Location x: 7 y: 4
+Player 4 Location x: 6 y: 6
+Player 5 Location x: 4 y: 7
+------------------------------------
+turn: 18
+
+0000000000
+000000000x
+0000f00000
+0001001000
+0000001000
+x000001000
+010x100000
+000000x000
+0000000x00
+00x0000000
+Player 0 Location x: 3 y: 3
+Player 1 Location x: 6 y: 3
+Player 2 Location x: 1 y: 6
+Player 3 Location x: 6 y: 4
+Player 4 Location x: 6 y: 5
+Player 5 Location x: 4 y: 6
+------------------------------------
+turn: 19
+
+0000000000
+000000000x
+0000f00000
+0000000000
+0001012000
+x100000000
+000x100000
+000000x000
+0000000x00
+00x0000000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 6 y: 4
+Player 2 Location x: 1 y: 5
+Player 3 Location x: 5 y: 4
+Player 4 Location x: 6 y: 4
+Player 5 Location x: 4 y: 6
+------------------------------------
+turn: 20
+
+0000000000
+000000000x
+0000f00000
+0000001000
+0010100100
+x000000000
+010x000000
+000010x000
+0000000x00
+00x0000000
+Player 0 Location x: 2 y: 4
+Player 1 Location x: 7 y: 4
+Player 2 Location x: 1 y: 6
+Player 3 Location x: 4 y: 4
+Player 4 Location x: 6 y: 3
+Player 5 Location x: 4 y: 7
+------------------------------------
+turn: 21
+
+0000000000
+000000000x
+0000f00000
+0000000000
+0002002000
+x000000000
+100x000000
+000100x000
+0000000x00
+00x0000000
+Player 0 Location x: 3 y: 4
+Player 1 Location x: 6 y: 4
+Player 2 Location x: 0 y: 6
+Player 3 Location x: 3 y: 4
+Player 4 Location x: 6 y: 4
+Player 5 Location x: 3 y: 7
+------------------------------------
+turn: 22
+
+0000000000
+000000000x
+0000f00000
+0000002000
+0000200000
+x000000000
+000x000000
+100010x000
+0000000x00
+00x0000000
+Player 0 Location x: 4 y: 4
+Player 1 Location x: 6 y: 3
+Player 2 Location x: 0 y: 7
+Player 3 Location x: 4 y: 4
+Player 4 Location x: 6 y: 3
+Player 5 Location x: 4 y: 7
+------------------------------------
+turn: 23
+
+0000000000
+000000000x
+0000f02000
+0000200000
+0000000000
+x000000000
+000x000000
+000001x000
+1000000x00
+00x0000000
+Player 0 Location x: 4 y: 3
+Player 1 Location x: 6 y: 2
+Player 2 Location x: 0 y: 8
+Player 3 Location x: 4 y: 3
+Player 4 Location x: 6 y: 2
+Player 5 Location x: 5 y: 7
+------------------------------------
+player 0 is in finish point
+
+__________ game is finished! ___________
+
+last turn is 23
+
+0000000000
+000000100x
+0000f10000
+0000000000
+0000100000
+x000000000
+000x010000
+000000x000
+0100000x00
+00x0000000
+Player 0 Location x: 4 y: 2
+Player 1 Location x: 5 y: 2
+Player 2 Location x: 1 y: 8
+Player 3 Location x: 4 y: 4
+Player 4 Location x: 6 y: 1
+Player 5 Location x: 5 y: 6
