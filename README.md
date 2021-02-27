@@ -114,7 +114,7 @@ Sample Config (stackInput.txt)
 
 Visualization
       
-      1. arr[0]= 3 (x), next greater 11 (y), next smaller: 9 (z)
+      	1. arr[0]= 3 (x), next greater 11 (y), next smaller: 9 (z)
 	2. arr[0]= 0, next greater 11, next smaller: 9
 	3. arr[0]= 11, next greater -1, next smaller: -1
 	4. arr[0]= 9, next greater 10, next smaller: 5
