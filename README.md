@@ -102,9 +102,11 @@ sample result output
 
 Rules
 
-      For a given integer array. for each element, starting from left to right, find the first integer(y) with a value greater than the existing one(x),
-      then find the next first integer(z) with a value smaller than y(left to right) integer of it. If next greater and small are no -1, print (y-z)
-      to the console, else print -1. **Must use stack to find numbers**
+      For a given integer array. for each element, starting from left to right,
+      find the first integer(y) with a value greater than the existing one(x),
+      then find the next first integer(z) with a value smaller than y(left to right) integer of it.
+      If next greater and small are no -1, print (y-z)to the console, else print -1.
+      **Must use stack to find numbers**
       
 Sample Config (stackInput.txt)
       
