@@ -135,3 +135,27 @@ Commands for Run
 returns 
 
       outputStack.txt
+
+
+**BALANCED TREE**
+
+Rules
+
+      Find is binary tree balanced or not
+      
+Sample Config (input.txt)
+      
+      5 4 8 11 - 13 4 7 2 - - - - - 1 // preorder treversal ('-' is null pointer) 
+      
+Output
+
+      true or false //  false for this case	
+
+Commands for Run
+
+      javac *.java
+      java Balanced 
+
+returns 
+
+      output.txt
