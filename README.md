@@ -145,7 +145,7 @@ Rules
       
 Sample Config (input.txt)
       
-      5 4 8 11 - 13 4 7 2 - - - - - 1 // preorder treversal ('-' is null pointer) 
+      5 4 8 11 - 13 4 7 2 - - - - - 1 // breadth-first search ('-' is null pointer) 
       
 Output
 
@@ -155,6 +155,29 @@ Commands for Run
 
       javac *.java
       java Balanced 
+
+returns 
+
+      output.txt
+
+**TREE PATH**
+
+Rules
+
+      check is tree have path that sum of values is equal to given number
+      
+Sample Config (input.txt)
+      
+      5 4 8 11 - 13 4 7 2 - - - - - 1 // breadth-first search ('-' is null pointer) **searching for 22**
+      
+Output
+
+      false or true // true:  T[0] 5 T[1] 4 T[3] 11 T[8] 2  for this one (searching for 22)
+      
+Commands for Run
+
+      javac *.java
+      java Path 
 
 returns 
 
