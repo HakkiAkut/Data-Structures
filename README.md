@@ -187,7 +187,14 @@ returns
 
 Rules
 
-      frequency of sequence of n(2 in this case) words
+      Given a text document and a n value. Program must exrtact all n-gram of the text document
+      an n-gram is a contigous sequence of from a given sample of text.
+      Basically frequency of sequence of n(2 in this case) words
+      
+Commands for Run
+
+      javac *.java
+      Java NgramExtractor input.txt output.csv 2
       
 Sample Config (input.txt)
       
@@ -240,12 +247,6 @@ Output
 	lexical density,1,2.4390243902439024
 	words characters,1,2.4390243902439024
 	texts are,1,2.4390243902439024
-
-      
-Commands for Run
-
-      javac *.java
-      Java NgramExtractor input.txt output.csv 2
 
 returns 
 
