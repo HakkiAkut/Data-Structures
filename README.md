@@ -182,3 +182,72 @@ Commands for Run
 returns 
 
       output.txt
+      
+**NGRAM ANALYZER**
+
+Rules
+
+      Given a text document and a n value. Program must exrtact all n-gram of the text document
+      an n-gram is a contigous sequence of from a given sample of text.
+      Basically frequency of sequence of n(2 in this case) words
+      
+Commands for Run
+
+      javac *.java
+      Java NgramExtractor input.txt output.csv 2
+      
+Sample Config (input.txt)
+      
+      You are expected to develop a text analyzer tool.  The program allows you to find the most
+      frequent phrases and frequencies of words.  Non-English language texts are supported.  It
+      also counts number of words,  characters,  sentences and syllables.  Also calculates lexical
+      density
+      
+Output
+
+        Total number of tokens: 41
+	ngram,count,frequency
+	of words,2,4.878048780487805
+	the program,1,2.4390243902439024
+	characters sentences,1,2.4390243902439024
+	frequent phrases,1,2.4390243902439024
+	to develop,1,2.4390243902439024
+	and syllables,1,2.4390243902439024
+	frequencies of,1,2.4390243902439024
+	counts number,1,2.4390243902439024
+	language texts,1,2.4390243902439024
+	allows you,1,2.4390243902439024
+	a text,1,2.4390243902439024
+	calculates lexical,1,2.4390243902439024
+	the most,1,2.4390243902439024
+	words nonenglish,1,2.4390243902439024
+	also counts,1,2.4390243902439024
+	you are,1,2.4390243902439024
+	develop a,1,2.4390243902439024
+	and frequencies,1,2.4390243902439024
+	supported ıt,1,2.4390243902439024
+	find the,1,2.4390243902439024
+	most frequent,1,2.4390243902439024
+	sentences and,1,2.4390243902439024
+	tool the,1,2.4390243902439024
+	are supported,1,2.4390243902439024
+	number of,1,2.4390243902439024
+	text analyzer,1,2.4390243902439024
+	also calculates,1,2.4390243902439024
+	syllables also,1,2.4390243902439024
+	to find,1,2.4390243902439024
+	you to,1,2.4390243902439024
+	analyzer tool,1,2.4390243902439024
+	nonenglish language,1,2.4390243902439024
+	ıt also,1,2.4390243902439024
+	phrases and,1,2.4390243902439024
+	are expected,1,2.4390243902439024
+	program allows,1,2.4390243902439024
+	expected to,1,2.4390243902439024
+	lexical density,1,2.4390243902439024
+	words characters,1,2.4390243902439024
+	texts are,1,2.4390243902439024
+
+returns 
+
+      output.csv
