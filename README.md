@@ -98,7 +98,7 @@ sample result output
       (2, 1) (2, 2) (1, 2) (0, 2) 
       (2, 1) (2, 2) (1, 2) (1, 1) (0, 1) (0, 2) 
       
-**PATH FINDING**
+**STACK**
 
 Rules
 
@@ -190,6 +190,7 @@ Rules
       Given a text document and a n value. Program must exrtact all n-gram of the text document
       an n-gram is a contigous sequence of from a given sample of text.
       Basically frequency of sequence of n(2 in this case) words
+      MUST USE HASHMAP
       
 Commands for Run
 
