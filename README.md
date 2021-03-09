@@ -251,3 +251,52 @@ Output
 returns 
 
       output.csv
+
+**SPLAY TREE**
+
+Rules
+
+      Splay tree implementation and print Breadth first search of current splay tree after every operation
+      
+      operation lists
+      void insert(int ele) -> add element to tree
+      void makeLeftChildParent(Node c, Node p) -> makes left child new parent(right rotation)
+      void makeRightChildParent(Node c, Node p) -> makes right child new parent(left rotation)
+      void splay(Node x) -> makes x new root
+      Node findNode(int ele) -> finds node which has same data as ele
+      void remove(Node node) -> remove node in splay tree
+      
+Commands for Run
+
+      javac *.java
+      Java Main input.txt output.txt
+      
+Sample Config (input.txt)
+      
+	insert 1
+	insert 2
+	remove 2
+	insert 5
+	remove 1
+	find 5
+	insert 19
+	find 15
+	insert 12
+	remove 3
+
+Output 
+
+	1 
+	2 1 - 
+	1 
+	5 1 - 
+	5 
+	5 
+	19 5 - 
+	5 - 19 
+	12 5 19 
+	5 - 12 - - - 19 
+	
+returns 
+
+      output.txt
