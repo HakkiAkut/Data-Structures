@@ -1,7 +1,19 @@
 # Data-Structures
 Some projects with implementing data structures
 
-**TWO DIMENSIONAL ARRAY GAME**
+## Contents
+
+- [TWO DIMENSIONAL ARRAY GAME](#two-dimensional-array-game)
+- [CIRCULAR LINKEDLIST 1](#circular-linkedlist-1)
+- [CIRCULAR LINKEDLIST 2](#circular-linkedlist-2)
+- [PATH FINDING](#path-finding)
+- [STACK](#stack)
+- [BALANCED TREE](#balanced-tree)
+- [TREE PATH](#tree-path)
+- [NGRAM ANALYZER](#ngram-analyzer)
+- [SPLAY TREE](#splay-tree)
+
+## TWO DIMENSIONAL ARRAY GAME
 
 The Rules of the Game
 
@@ -30,7 +42,7 @@ returns
       result.txt file
 
 
-**CIRCULAR LINKEDLIST 1**
+## CIRCULAR LINKEDLIST 1
 
  Given two circularly linked lists, L and M.
  Develop java application for telling 
@@ -47,7 +59,7 @@ returns
       true, if there is same sequence of elements 
       false, if there is not
       
- **CIRCULAR LINKEDLIST 2**
+ ## CIRCULAR LINKEDLIST 2
  
  Given a circularly linked list L containing an even number of nodes,
  develop java application how to split L into two circularly linked lists of half the size.
@@ -62,7 +74,7 @@ returns
       splits 2nd half of circular linked list to another list and returns this list.
       And given circular linked list becomes 1st half of the circular linked list
 
-**PATH FINDING**
+## PATH FINDING
 
 Rules
 
@@ -98,7 +110,7 @@ sample result output
       (2, 1) (2, 2) (1, 2) (0, 2) 
       (2, 1) (2, 2) (1, 2) (1, 1) (0, 1) (0, 2) 
       
-**STACK**
+## STACK
 
 Rules
 
@@ -137,7 +149,7 @@ returns
       outputStack.txt
 
 
-**BALANCED TREE**
+## BALANCED TREE
 
 Rules
 
@@ -160,7 +172,7 @@ returns
 
       output.txt
 
-**TREE PATH**
+## TREE PATH
 
 Rules
 
@@ -183,7 +195,7 @@ returns
 
       output.txt
       
-**NGRAM ANALYZER**
+## NGRAM ANALYZER
 
 Rules
 
@@ -253,7 +265,7 @@ returns
 
       output.csv
 
-**SPLAY TREE**
+## SPLAY TREE
 
 Rules
 
